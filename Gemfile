@@ -23,6 +23,8 @@ group :production do
 	gem 'rails_12factor'
 end
   
+ group :doc do
+ 	
   gem 'byebug'
 
 
