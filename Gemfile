@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'                     
 
 
 
@@ -24,7 +25,7 @@ group :production do
 end
   
  group :doc do
- 	
+
   gem 'byebug'
 
 
