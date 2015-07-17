@@ -79,6 +79,6 @@ Rails.application.configure do
   # Required fo Heroku
   # Not to set this to your actual host name
 
-  config.action_mailer.default_url_options = { host: => "zummly.com" }
+  config.action_mailer.default_url_options = { :host => "zummly.com" }
 
 end
